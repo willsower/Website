@@ -1,245 +1,284 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Jeremy Hummel | Board Game Simulator</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="../img/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/core.css" />
+    <link rel="stylesheet" href="../css/theme.css" />
+  </head>
 
-<head>
-	<meta charset="utf-8">
-	<title> Jeremy Hummel | Board Game Simulator </title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" href="../img/favicon.png">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
-	<link rel="stylesheet" href="../css/core.css">
-	<link rel="stylesheet" href="../css/theme.css">
-</head>
+  <body class="sticky-header sticky-footer">
+    <!-- Preloader -->
+    <div id="preloader"></div>
 
-<body class="sticky-header sticky-footer">
+    <!-- Header -->
+    <header id="header" style="background-color: #242424">
+      <!-- Logo -->
+      <a href="../index.html" class="logo">
+        <h4
+          style="padding-top: 8px !important; color: #f5f5f5 !important"
+          class="logo-light"
+        >
+          JH
+        </h4>
+      </a>
 
-	<!-- Preloader -->
-	<div id="preloader"></div>
+      <!-- Mobile Menu Icon -->
+      <a href="#" class="mob-menu"> <span></span><span></span><span></span> </a>
 
-	<!-- Header -->
-	<header id="header" style="background-color: #242424;">
+      <!-- Navigation -->
+      <nav class="navigation onepage">
+        <ul>
+          <li><a href="../index.html#home">Home</a></li>
+          <li><a href="../index.html#experience">Experience</a></li>
+          <li class="has-mega-menu">
+            <a class="active" href="../index.html#portfolio">Portfolio</a>
+            <div style="text-align: center !important" class="mega-menu">
+              <div class="col">
+                <ul>
+                  <li>
+                    <a href="patient_planner.html"
+                      >Medical Diagnostic Training Application</a
+                    >
+                  </li>
+                  <li><a href="healthy_eats.html">Healthy Eats</a></li>
+                  <li><a href="tennisimals.html">Tennisimals</a></li>
+                  <li><a href="board_game_sim.html">Board Game Simulator</a></li>
+                  <li><a href="eco_sim.html">Eco Simulator</a></li>
+                  <li><a href="art_folio.html">My Art Portfolio</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- /Navigation -->
+    </header>
+    <!-- /Header -->
 
-		<!-- Logo -->
-		<a href="../index.html" class="logo">
-			<h4 style="padding-top: 8px !Important; color: #f5f5f5 !important;" class="logo-light"> JH </h4>
-		</a>
+    <!-- Main Content -->
+    <main id="main">
+      <!-- About & Details -->
+      <section class="bg-lines pt-6 px-7">
+        <div class="container p-0">
+          <!-- About -->
+            <div class="" data-animation="fade-in-bottom 1s .1s">
+                <h2 class="bold uppercase">Board Game Simulator</h2>
+                <p class="serif"></p>
+                <hr class="separator-left mt-6">
+                <h6 class="bold uppercase mt-7 mb-4">About</h6>
+                <p class="opacity-08">This is a game that is meant to be a framework for creating physics based board game simulations that are great to play with a group of friends or family! It features a deck that shuffles, and can be drawn from, 3D cursor, a magnifying glass, picking up objects, interaction sounds and impact sounds for different objects via scriptable objs, an interactive rule book, an interactive notebook, an interactive radio that can be tuned to different songs, generic object interaction so differenct objects can be interacted with in different ways (for example: left click to on dice to roll dice, left click on card to flip it, and left click on deck to shuffle), and more!
+                </p>
+            </div>
+          <!-- /About -->
 
-		<!-- Mobile Menu Icon -->
-		<a href="#" class="mob-menu">
-			<span></span><span></span><span></span>
-		</a>
+          <!-- Details -->
+          <div class="row no-gutters mt-4">
+            <div class="col-md-4" data-animation="fade-in-bottom 1s .2s">
+              <h6 class="bold uppercase mt-7 mb-4">For</h6>
+              <p>Fun :)</p>
+            </div>
 
-		<!-- Navigation -->
-		<nav class="navigation onepage">
-			<ul>
-				<li><a href="../index.html#home">Home</a></li>
-				<li><a href="../index.html#experience">Experience</a></li>
-				<li class="has-mega-menu">
-					<a href="../index.html#portfolio">Portfolio</a>
-					<div style="text-align: center !important;" class="mega-menu">
-						<div class="col">
-							<ul>
-								<li><a href="folio_1.html">Medical Diagnostic Training Application</a></li>
-								<li><a href="folio_2.html">Healthy Eats</a></li>
-								<li><a href="folio_3.html">Tennisimals</a></li>
-								<li><a href="folio_4.html">Board Game Simulator</a></li>
-								<li><a href="art_folio.html">My Art Portfolio</a></li>
-							</ul>
-						</div>
-					</div>
-				</li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
-		<!-- /Navigation -->
+            <div class="col-md-4" data-animation="fade-in-bottom 1s .4s">
+              <h6 class="bold uppercase mt-7 mb-4">Date</h6>
+              <p>Oct 2020 - Dec 2020</p>
+            </div>
 
-	</header>
-	<!-- /Header -->
+            <div class="col-md-4" data-animation="fade-in-bottom 1s .6s">
+              <h6 class="bold uppercase mt-7 mb-4">Tools Used</h6>
+              <p class="">
+                <p>Unity3D - C# / Blender / Visual Studio / GitHub</p>
+              </p>
+            </div>
+          </div>
+          <!-- /Details -->
+        </div>
+      </section>
+      <!-- /About & Details -->
 
-	<!-- Main Content -->
-	<main id="main">
+	<!-- Video Section -->
+	<section class="bg-lines py-5 px-7" data-animation="fade-in-bottom 1s .1s">
+		<div class="container p-0">
+			<h5 class="mb-5">DEMO.</h5>
+			<!-- Thumbnail Video -->
+			<div class="thumbnail-video" 
+					data-src="../video/Tennisimals.mp4" 
+					data-poster="../img/folio/Tennisimals/Tennisimals_5.png"></div>
+			<!-- /Thumbnail Video -->
 
-		<!-- Project Section -->
-		<section class="bg-lines px-5">
-			<div class="container py-8 px-0">
-				<div class="row justify-content-between">
-
-					<!-- Details Column -->
-					<div class="col-lg-5" data-animation="fade-in-bottom 1s .2s">
-						<h2 class="bold uppercase">Board Game Simulator</h2>
-						<p class="serif"></p>
-						<hr class="separator-left mt-6">
-						<h6 class="bold uppercase mt-7 mb-4">About</h6>
-						<p class="opacity-08">
-							This is a game that is meant to be a framework for creating 
-							physics based board game simulations that are great to play with 
-							a group of friends or family! It features a deck that shuffles, 
-							and can be drawn from, 3D cursor, a magnifying glass, picking up objects,
-							interaction sounds and impact sounds for different objects
-							via scriptable objs, an interactive rule book, an interactive notebook, 
-							an interactive radio that can be tuned to different songs,
-							generic object interaction so differenct objects can be interacted with 
-							in different ways (for example: left click to on dice to roll dice,
-							left click on card to flip it, and left click on deck to shuffle), and more! 
-						</p>
-
-						<h6 class="bold uppercase mt-7 mb-4">For</h6>
-						<p>Fun :)</p>
-
-						<h6 class="bold uppercase mt-7 mb-4">Date</h6>
-						<p>OCT 2020 - DEC 2020 </p>
-
-						<h6 class="bold uppercase mt-7 mb-4">Tools Used</h6>
-						<p>Unity</p>
-						<p>Blender</p>
-						<p>Github</p>
-						<p>Visual Studio</p>
-
-						<!--<a href="#" class="button style-7 mt-8">View on Github</a>-->
-					</div>
-					<!-- /Details Column -->
-
-					<!-- Gallery Column -->
-					<div class="col-lg-6 pl-0" data-animation="fade-in-bottom 1s .4s">
-						
-						<!-- Gallery Grid -->
-						<div class="grid lightbox photo-gallery" 
-							 data-columns="2"
-							 data-rows="3" 
-						     data-gutter="2" 
-						     data-cell-ratio="5/5.1"
-						     data-thumbnails="true" 
-						     data-thumbnails-pinned="true">
-
-							<!-- Gallery Item -->
-							<a class="grid-item wide lightbox-link"
-							   href="../img/folio/BoardGame/BoardGame_1.png"
-							   title="In Editor" 
-							   data-background="../img/folio/BoardGame/BoardGame_1.png"
-							   data-thumbnail="../img/folio/BoardGame/BoardGame_1.png"></a>
-							<!-- /Gallery Item -->
-
-							<!-- Gallery Item -->
-							<a class="grid-item  wide lightbox-link"
-							   href="../img/folio/BoardGame/BoardGame_5.png"
-							   title="Gameplay" 
-							   data-background="../img/folio/BoardGame/BoardGame_5.png"
-							   data-thumbnail="../img/folio/BoardGame/BoardGame_5.png"></a>
-							<!-- /Gallery Item -->
-
-							<!-- Gallery Item -->
-							<a class="grid-item  wide lightbox-link"
-							   href="../img/folio/BoardGame/BoardGame_2.png"
-							   title="Gameplay" 
-							   data-background="../img/folio/BoardGame/BoardGame_2.png"
-							   data-thumbnail="../img/folio/BoardGame/BoardGame_2.png"></a>
-							<!-- /Gallery Item -->
-
-						</div>
-						<!-- /Gallery Grid -->
-
-					</div>
-					<!-- /Gallery Column -->
-
-				</div>
-			</div>
-		</section>
-		<!-- /Project Section -->
-
-		<!-- Project Navigation -->
-		<div class="project-nav">
-			<div class="col-5">
-				<a href="folio_3.html">
-					<small>Prev:</small>
-					<h6>Previous Project Title</h6>
-				</a>
-			</div>
-			<div class="col-2 all-projects">
-				<a href="../index.html#portfolio">
-					<i class="fa fa-th-large"></i>
-					<h6>All Projects</h6>
-				</a>
-			</div>
-			<div class="col-5">
-				<a href="folio_1.html">
-					<small>Next:</small>
-					<h6>Next Project Title</h6>
-				</a>
-			</div>
 		</div>
-		<!-- /Project Navigation -->
+	</section>
+	<!-- /Video Section -->
 
-		<!-- Contact -->
+      <!-- Gallery Section -->
+      <section class="bg-lines py-6 px-7">
+        <div class="container px-0">
+			<h5 class="mb-5">GALLERY.</h5>
+                <!-- Gallery Grid -->
+                <div class="grid lightbox photo-gallery py-2" 
+                        data-columns="4"
+                        data-rows="3" 
+                        data-gutter="5" 
+                        data-cell-ratio="4.7/5"
+                        data-thumbnails="true" 
+                        data-thumbnails-pinned="true">
+
+                    <!-- Gallery Item -->
+                    <a class="grid-item wide lightbox-link"
+                    href="../img/folio/Tennisimals/Tennisimals_1.png"
+                    title="In Editor" 
+                    data-background="../img/folio/Tennisimals/Tennisimals_1.png"
+                    data-thumbnail="../img/folio/Tennisimals/Tennisimals_1.png"></a>
+                    <!-- /Gallery Item -->
+
+                    <!-- Gallery Item -->
+                    <a class="grid-item  wide lightbox-link"
+                        href="../img/folio/Tennisimals/Tennisimals_4.png"
+                        title="Gameplay" 
+                        data-background="../img/folio/Tennisimals/Tennisimals_4.png"
+                        data-thumbnail="../img/folio/Tennisimals/Tennisimals_4.png"></a>
+                    <!-- /Gallery Item -->
+
+                    <!-- Gallery Item -->
+                    <a class="grid-item wide lightbox-link"
+                    href="../img/folio/Tennisimals/Tennisimals_7.png"
+                    title="In Editor" 
+                    data-background="../img/folio/Tennisimals/Tennisimals_7.png"
+                    data-thumbnail="../img/folio/Tennisimals/Tennisimals_7.png"></a>
+                    <!-- /Gallery Item -->
+
+                    <!-- Gallery Item -->
+                    <a class="grid-item  wide lightbox-link"
+                        href="../img/folio/Tennisimals/Tennisimals_8.png"
+                        title="Gameplay" 
+                        data-background="../img/folio/Tennisimals/Tennisimals_8.png"
+                        data-thumbnail="../img/folio/Tennisimals/Tennisimals_8.png"></a>
+                    <!-- /Gallery Item -->
+
+                    <!-- Gallery Item -->
+                    <a class="grid-item  wide lightbox-link"
+                        href="../img/folio/Tennisimals/Tennisimals_2.png"
+                        title="Gameplay" 
+                        data-background="../img/folio/Tennisimals/Tennisimals_2.png"
+                        data-thumbnail="../img/folio/Tennisimals/Tennisimals_2.png"></a>
+                    <!-- /Gallery Item -->
+
+                    <!-- Gallery Item -->
+                    <a class="grid-item wide lightbox-link"
+                        href="../img/folio/Tennisimals/Tennisimals_3.png" 
+                        title="Menu" 
+                        data-background="../img/folio/Tennisimals/Tennisimals_3.png"
+                        data-thumbnail="../img/folio/Tennisimals/Tennisimals_3.png"></a>
+                    <!-- /Gallery Item -->
+
+                </div>
+                    <!-- /Gallery Grid -->
+
+            </div>
+                <!-- /Gallery Column -->
+        </div>
+      </section>
+      <!-- /Gallery Section -->
+
+      <!-- Project Navigation -->
+      <div class="project-nav">
+        <div class="col-5">
+          <a href="healthy_eats.html">
+            <small>Prev:</small>
+            <h6>Healthy Eats</h6>
+          </a>
+        </div>
+        <div class="col-2 all-projects">
+          <a href="../index.html#portfolio">
+            <i class="fa fa-th-large"></i>
+            <h6>All Projects</h6>
+          </a>
+        </div>
+        <div class="col-5">
+          <a href="board_game_sim.html">
+            <small>Next:</small>
+            <h6>Board Game Simulator</h6>
+          </a>
+        </div>
+      </div>
+      <!-- /Project Navigation -->
+
+      <!-- Contact -->
 		<section id="contact" class="background-fixed bg-lines py-12 px-7" data-background="../img/backgrounds/107.jpg"
-			data-overlay="black; .9">
-			<div class="container p-0 text-light">
-				<div class="row">
+        data-overlay="black; .9">
+        <div class="container p-0 text-light">
+            <div class="row">
 
-					<!-- Details Column -->
-					<div class="col-md-6">
+                <!-- Details Column -->
+                <div class="col-md-6">
 
-						<h3>CONTACT INFO</h3>
+                    <h3>CONTACT INFO</h3>
 
-						<p class="small serif my-5">
-							I can help. If you have a project that you want to get started,
-							<br>
-							think you need my help with something or just wanna say hey,
-							<br>
-							then get in touch.
-						</p>
+                    <p class="small serif my-5">
+                        I can help. If you have a project that you want to get started,
+                        <br>
+                        think you need my help with something or just wanna say hey,
+                        <br>
+                        then get in touch.
+                    </p>
 
-						<div><b>MAIL:</b> jeremy.hummel3@gmail.com</div>
-						<div><b>ADDRESS:</b> 905 Gladstone, Bellingham, WA 98229</div>
-						<div><b>TEL:</b> +360 684 4442 </div>
+                    <div><b>MAIL:</b> jeremy.hummel3@gmail.com</div>
+                    <div><b>ADDRESS:</b> 905 Gladstone, Bellingham, WA 98229</div>
+                    <div><b>TEL:</b> +360 684 4442 </div>
 
-					</div>
-					<!-- /Details Column -->
+                </div>
+                <!-- /Details Column -->
 
-					<!-- Contact Form Column -->
-					<div class="col-md-6">
+                <!-- Contact Form Column -->
+                <div class="col-md-6">
 
-						<!-- Form Message -->
-						<div class="mail-form-message d-none mb-5"></div>
+                    <!-- Form Message -->
+                    <div class="mail-form-message d-none mb-5"></div>
 
-						<!-- Contact Form -->
-						<form class="mail-form" action="php/mail.php">
-							<input name="name" type="text" placeholder="Name:" required autocomplete="off">
-							<input name="email" type="email" placeholder="Email:" required autocomplete="off">
-							<textarea name="message" placeholder="Message:" required rows="4"></textarea>
-							<button type="submit" class="button style-5 uppercase">send</button>
-						</form>
-						<!-- /Contact Form -->
+                    <!-- Contact Form -->
+                    <form class="mail-form" action="php/mail.php">
+                        <input name="name" type="text" placeholder="Name:" required autocomplete="off">
+                        <input name="email" type="email" placeholder="Email:" required autocomplete="off">
+                        <textarea name="message" placeholder="Message:" required rows="4"></textarea>
+                        <button type="submit" class="button style-5 uppercase">send</button>
+                    </form>
+                    <!-- /Contact Form -->
 
-					</div>
-					<!-- /Contact Form Column -->
+                </div>
+                <!-- /Contact Form Column -->
 
-				</div>
-			</div>
-		</section>
-		<!-- /Contact -->
+            </div>
+        </div>
+    </section>
+    <!-- /Contact -->
+    </main>
+    <!-- /Main Content -->
 
-	</main>
-	<!-- /Main Content -->
+    <!-- Footer -->
+    <footer id="footer" style="background-color: #242424;">
 
-	<!-- Footer -->
-	<footer id="footer" style="background-color: #242424;">
+        <!-- Copyright -->
+        <small>&copy; Copyright. Jeremy Hummel 2021</small>
 
-		<!-- Copyright -->
-		<small>&copy; Copyright. Jeremy Hummel 2020</small>
+        <!-- Social/Contact Links -->
+        <div class="small text-links">
+            <a href="https://www.linkedin.com/in/jeremy-hummel-203767ba/">LinkedIn</a>
+            <a href="https://github.com/SayHello-Creator">Github</a>
+        </div>
 
-		<!-- Social/Contact Links -->
-		<div class="small text-links">
-			<a href="https://www.linkedin.com/in/jeremy-hummel-203767ba/">LinkedIn</a>
-			<a href="https://github.com/SayHello-Creator">Github</a>
-		</div>
+    </footer>
+    <!-- /Footer -->
 
-	</footer>
-	<!-- /Footer -->
-
-	<!-- JS -->
-	<script src="../js/core.js"></script>
-	<script src="../js/theme.js"></script>
-</body>
-
+    <!-- JS -->
+    <script src="../js/core.js"></script>
+    <script src="../js/theme.js"></script>
+  </body>
 </html>
